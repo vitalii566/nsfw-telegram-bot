@@ -2,7 +2,7 @@
 import os
 from telegram import Update, InputFile
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from .files.inputfile import get_input_file
+from files.inputfile import get_input_file
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
